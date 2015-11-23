@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body{
+	background-color: rgb(238,238,238)
+}
+.navbar-brand img{
+	 margin-top: -10px;
+}
+
+.map{	
+	overflow: hidden;
+	background-color:rgb(235,149,50);
+	width: 90%;
+}
+
+
+.navbar {	   
+background-color:rgb(235,149,50);
+}
+
+.navbar-default .navbar-nav > .active > a  {
+   background-color: rgb(235,142,1);
+}
+	
+#contactPageHeader{
+	background-color:rgb(45,45,45);
+	border-radius: 7px;
+	margin-bottom: 10px;
+	padding-left: 15%;
+    padding-right: 15%;
+ }
+
+#contactPageHeader p{
+	color: whitesmoke;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-size: 2em;
+	text-align: center;	
+	font-style: italic;
+ }
+	
+
+.classWithPad { 
+	background-color:rgb(235,149,50);
+	text-align: center;
+	border-radius: 7px;
+	margin:1px; padding:10px; 
+	}
+	
+#message{
+	    height: 280px;
+
+}
+.btn-lg{
+	float: left;
+}
