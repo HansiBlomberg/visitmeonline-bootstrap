@@ -23,3 +23,13 @@
 #omoss p {
 	font-size: 1.2em;
 }
+
+/* Footer */
+
+footer {
+	padding: 12px 0 12px;
+	background: linear-gradient(135deg, rgb(248,148,6), #D35400);
+	border-radius: 8px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
