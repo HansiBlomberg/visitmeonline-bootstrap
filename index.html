@@ -9,25 +9,36 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="TeamHeisenberg">
 	<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.css">	
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="./bootstrap/js/bootstrap.js"></script>
+	<script src="./script.js"></script>
 </head>
 
 
 
 <body>
 <div class="container">
-	
-	
-	<header>
-		  <nav>
-        <ul>
-            <li><a href="#hem">Hem</a></li>
+	<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+         
+          <a class="navbar-brand" href="#"><img width="150px" src="http://i.imgur.com/xiYj4vh.jpg"/></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Hem</a></li>
             <li><a href="#referenser">Referenser</a></li>
             <li><a href="#omoss">Om oss</a></li>
 			<li><a href="#kontakt">Kontakt</a></li>
-        </ul>
+           
+          </ul>
+
+        </div><!--/.nav-collapse -->
+      </div>
     </nav>
-	</header>
+	
+	
 
 	<section id="home" class="page">
 		<h3>Home</h3>
@@ -45,9 +56,59 @@
 		<img src="./images/about.png">
 	</section>
 	
-	<section id="kontakt" class="page">
+	<section id="kontakt" class="page container">
 		<h3>Kontakt</h3>
-		<img src="./images/about.png">
+		
+			<div id="contactPageHeader" class="col-md-12">
+				<p>Välkommen att  kontakta oss för att veta mer om hur vi kan hjälpa ditt företag att utmärka sig på nätet.<p>
+			</div>
+			<div class="row">
+			<div class="col-md-6  formCol">
+				<div class="classWithPad">
+				  <legend class="header">Contact us</legend>
+			<form class="form-horizontal col-md-offset-1" method="post" height="450">
+                    <fieldset>
+                      
+
+                        <div class="form-group">
+                          
+                            <div class="col-md-10">
+                                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                            </div>
+                        </div>
+                       
+                        <div class="form-group">
+                           
+                          <div class="col-md-10">
+                                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                            </div>
+                        </div>
+
+                   
+
+                        <div class="form-group">
+                        
+                            <div class="col-md-10">
+                                <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>	
+				</div>
+		    </div>
+			<div class="col-md-6 colMap">
+				<div class="classWithPad">
+				<legend class="header">Visit us</legend>
+				 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2036.2483994816794!2d18.02203051641036!3d59.31210901944486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f77c888938fef%3A0x770724cdcde0a195!2sLernia+AB!5e0!3m2!1ssv!2sse!4v1448194690394" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				
+			</div>
+		</div>
 	</section>
 
 	
