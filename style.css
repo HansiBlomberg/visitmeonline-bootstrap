@@ -57,3 +57,11 @@ background-color:rgb(235,149,50);
 }
 
 
+@media (max-width: 750px) {
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .referenser > a,
+	.navbar-default .navbar-nav > .omoss > a ,
+	.navbar-default .navbar-nav > .kontakt > a {
+		display: none;
+	}
+}
