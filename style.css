@@ -69,7 +69,7 @@ background-color:rgb(235,149,50);
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
 	.navbar-default .navbar-nav > .hem > a,
 	.navbar-default .navbar-nav > .referenser > a,
 	.navbar-default .navbar-nav > .omoss > a ,
@@ -82,7 +82,7 @@ background-color:rgb(235,149,50);
 
 }
 
-@media (min-width: 750px) {
+@media (min-width: 768px) {
 	#drop {
 		display: none;
 	}
