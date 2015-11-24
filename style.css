@@ -111,6 +111,11 @@ background-color:rgb(235,149,50);
 	margin-top: 40px;
 }
 
+#drop a {
+	display: inline-block;
+	width: 100px;
+	color: whitesmoke;
+}
 
 
 
