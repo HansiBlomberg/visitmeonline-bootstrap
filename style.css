@@ -5,7 +5,14 @@ body{
 }
 .navbar-brand img{
 	 margin-top: -10px;
+	 display: inline-block;
+	 /*position: absolute;
+	 width: 19%;
+	 top: 37px;
+	 left: 50px;*/
 }
+
+
 
 .map{	
 	overflow: hidden;
@@ -16,6 +23,11 @@ body{
 
 .navbar {	   
 background-color:rgb(235,149,50);
+}
+
+.navbar li {
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .navbar-default .navbar-nav > .active > a  {
@@ -57,7 +69,7 @@ background-color:rgb(235,149,50);
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
 	.navbar-default .navbar-nav > .hem > a,
 	.navbar-default .navbar-nav > .referenser > a,
 	.navbar-default .navbar-nav > .omoss > a ,
@@ -70,12 +82,25 @@ background-color:rgb(235,149,50);
 
 }
 
-@media (min-width: 750px) {
+@media (min-width: 768px) {
 	#drop {
 		display: none;
 	}
 
 
+}
+
+.navbar {
+	padding-bottom: 30px;
+
+}
+
+
+.navbar-default .navbar-nav > li > a {
+	font-size: 2.5em;
+	color: whitesmoke;
+	position: relative;
+	top: 40px;
 }
 
 
