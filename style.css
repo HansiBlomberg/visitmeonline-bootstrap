@@ -55,3 +55,28 @@ background-color:rgb(235,149,50);
 .btn-lg{
 	float: left;
 }
+
+
+@media (max-width: 750px) {
+	.navbar-default .navbar-nav > .hem > a,
+	.navbar-default .navbar-nav > .referenser > a,
+	.navbar-default .navbar-nav > .omoss > a ,
+	.navbar-default .navbar-nav > .kontakt > a {
+		display: none;
+	}
+	.navbar-default .navbar-nav > li > a{
+		font-size: 3em;
+	}
+
+}
+
+@media (min-width: 750px) {
+	#drop {
+		display: none;
+	}
+
+
+}
+
+
+
