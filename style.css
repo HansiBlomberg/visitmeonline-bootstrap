@@ -81,8 +81,11 @@ background-color:rgb(235,149,50);
 	}
 	.navbar-default .navbar-nav > li > a{
 		font-size: 3em;
+		
 	}
-
+	.glyphicon {
+		font-size: 1.5em;
+	}
 }
 
 @media (min-width: 768px) {
@@ -105,7 +108,7 @@ background-color:rgb(235,149,50);
 .navbar {
 	padding-bottom: 30px;
 
-}
+ }
 
 
 .navbar-default .navbar-nav > li > a {
@@ -114,6 +117,18 @@ background-color:rgb(235,149,50);
 	position: relative;
 	top: 40px;
 }
+
+.dropdown-menu > li > a {
+	font-size: 2em;
+	margin-top: 40px;
+}
+
+#drop a {
+	display: inline-block;
+	width: 100px;
+	color: whitesmoke;
+}
+
 
 
 
