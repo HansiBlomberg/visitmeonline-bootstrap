@@ -4,15 +4,18 @@
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 	background-color:rgb(45,45,45);
 	color: whitesmoke;
+	padding-left: 10px;
+	padding-right: 10px;
 	border-radius: 7px;
 	margin-left: 20px;
-	padding-left: 15%;
-	padding-right: 15%;
+	/*padding-left: 15%;
+	padding-right: 15%;*/
 }
 
 #omoss h3{
 	background-color: rgb(248,148,6);
 	border-radius: 50%;
+	width: 100%;
 }
 
 #omoss h1 {
