@@ -12,7 +12,19 @@ body{
 	 left: 50px;*/
 }
 
+#home strong {
+    font:"Adobe Devanagari";
+    font-size:1.5em;
+    color:#FF3300;
+    text-align:center;
+	width: 50%;
+   
+   
+}
 
+#home .homeFoot{
+	text-align: center;
+}
 
 .map{	
 	overflow: hidden;
