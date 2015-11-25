@@ -71,6 +71,15 @@ background-color:rgb(235,149,50);
 	float: left;
 }
 
+#home img {
+	display: none;
+	
+}
+#home .row {
+	
+    margin-top: 25%;
+}
+
 
 @media (max-width: 768px) {
 	.navbar-default .navbar-nav > .hem > a,
@@ -92,6 +101,14 @@ background-color:rgb(235,149,50);
 	#drop {
 		display: none;
 	}
+
+
+	#home img {
+	display: block;
+	margin-top: 5%;
+	margin: 0 auto;
+    margin-top: 5%;
+}
 	
 	#contactPageHeader{
 	background-color:rgb(45,45,45);
